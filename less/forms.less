@@ -1,0 +1,46 @@
+//@import "base.less";
+
+form{
+	text-align: left;
+
+	input{
+		padding: 15px 20px;
+		font-size: 12pt;
+		border: 0;
+		.radius(3px);
+		color: @imarahgreen;
+
+		&:focus{
+			outline: none;
+		}
+	}
+	
+	&.signup{
+		margin: 0;padding: 0;
+		background: @white;
+		width: 90%;
+		position: relative;
+		.radius(3px);
+		box-shadow: 0px 2px 4px rgba(0,0,0,0.4);
+
+		input{
+			width: 70%;
+		}
+
+		.btn{
+			position: absolute;
+			right: 5px;
+			top: 7px;
+
+			&.mosqueformbtn{
+				top: auto;
+				bottom: 7px;
+				width: 150px;
+			}
+		}
+	}
+
+}
+
+
+

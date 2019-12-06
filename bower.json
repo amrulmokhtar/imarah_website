@@ -1,0 +1,18 @@
+{
+  "name": "imarah-website",
+  "version": "0.0.0",
+  "authors": [
+    "Shiva Narrthine <shivanarrthine@gmail.com>"
+  ],
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "http://imarah.my",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

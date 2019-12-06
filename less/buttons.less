@@ -1,0 +1,52 @@
+
+//@import "base.less";
+
+
+.btn{
+	-webkit-appearance: none;
+	border: 0;
+	font-size: 11pt;
+	outline: none;
+	background: #979797;
+	padding: 10px 20px;
+	color: @white;
+	.radius(3px);
+	margin: 0 5px;
+	cursor: pointer;
+	-webkit-transition: background-color 0.2s ease-in-out;
+
+	&:hover{
+		background: darken(#979797, 10%);
+		-webkit-transition: background-color 0.2s ease-in-out;
+	}
+
+	&.btn-primary{
+		background: @blue;
+		-webkit-transition: background-color 0.2s ease-in-out;
+
+		&:hover{
+			background: darken(@blue, 10%);
+			-webkit-transition: background-color 0.2s ease-in-out;
+		}
+	}
+
+	&.btn-success{
+		background: @imarahgreen;
+		-webkit-transition: background-color 0.2s ease-in-out;
+
+		&:hover{
+			background: darken(@imarahgreen, 10%);
+			-webkit-transition: background-color 0.2s ease-in-out;
+		}
+	}
+
+	&.btn-contrast{
+		background: @orange;
+		-webkit-transition: background-color 0.2s ease-in-out;
+
+		&:hover{
+			background: darken(@orange, 5%);
+			-webkit-transition: background-color 0.2s ease-in-out;
+		}
+	}
+}
